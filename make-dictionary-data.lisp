@@ -468,9 +468,10 @@
 
 
 (progn
-  (create-emojidic  "./output/06.emoji.dic"          "./06.emoji.data")
-  (create-staticdic "./output/07.address.dic"  "ad'" "./07.address.data")
-  (create-staticdic "./output/08.4jijukgo.dic" nil   "./08.4jijukgo.data")
-  (create-staticdic "./output/09.static.dic"   nil   "./09.static.normal.data"
-                                                     "./09.static.okurigana.data"
-                                                     "./09.static.symbols.data"))
+  (create-staticdic "./output/08.static.dict"   nil   "./08.static.normal.data"
+                                                      "./08.static.okurigana.data"
+                                                      "./08.static.symbols.data")
+  (create-staticdic "./output/09.tankanji.dict" nil   "./09.tankanji.data")
+  (create-staticdic "./output/0A.4jijukgo.dict" nil   "./0A.4jijukgo.data")
+  (create-emojidic  "./output/0B.emoji.dict"          "./0B.emoji.data")
+  (create-staticdic "./output/0C.address.dict"  "ad'" "./0C.address.data"))
