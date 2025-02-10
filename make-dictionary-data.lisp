@@ -468,7 +468,9 @@
 
 
 (progn
-  (create-staticdic "./output/08.static.dict"   nil   "./08.static.normal.data"
+  (create-staticdic "./output/08.static.dict"   nil   "./08.static.hiragana.data"
+                                                      "./08.static.katakana.data"
+                                                      "./08.static.normal.data"
                                                       "./08.static.okurigana.data"
                                                       "./08.static.symbols.data")
   (create-staticdic "./output/09.tankanji.dict" nil   "./09.tankanji.data")
